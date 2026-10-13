@@ -1,0 +1,241 @@
+```css
+/* General styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: white;
+    color: navy;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, navy, purple, maroon);
+    color: white;
+    text-align: center;
+    padding: 75px 20px 55px;
+    border-bottom: 6px solid pink;
+    box-shadow: 0 8px 25px lightgray;
+}
+
+/* Tagline */
+.tagline {
+    color: pink;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* Main heading */
+header h1 {
+    font-size: 44px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 8px black;
+}
+
+/* Header description */
+header p {
+    margin: 8px 0;
+}
+
+.intro {
+    color: pink;
+    font-size: 17px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 35px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 6px;
+    border: 1px solid pink;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+/* Navigation hover */
+nav a:hover {
+    background: pink;
+    color: maroon;
+    border-color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
+}
+
+/* All sections */
+section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 35px;
+    background: white;
+    color: navy;
+    border: 1px solid pink;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px lightgray;
+    transition: all 0.4s ease;
+    scroll-margin-top: 20px;
+}
+
+/* Section hover */
+section:hover {
+    box-shadow: 0 12px 30px pink;
+    border-color: purple;
+}
+
+/* Section headings */
+h2 {
+    color: maroon;
+    text-align: center;
+    font-size: 28px;
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+}
+
+/* Decorative heading underline */
+h2::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 5px;
+    background: linear-gradient(to right, pink, purple);
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+/* About section */
+#about {
+    background: linear-gradient(to right, white, lavender);
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* EDUCATION SECTION - CENTERED */
+#education {
+    text-align: center;
+    background: linear-gradient(to bottom, white, lavender);
+}
+
+#education .card {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    border-top: 5px solid purple;
+}
+
+/* Card container */
+.container {
+    text-align: center;
+}
+
+/* General cards */
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    min-height: 145px;
+    margin: 12px;
+    padding: 25px 20px;
+    text-align: center;
+    background: lavender;
+    border: 1px solid pink;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px lightgray;
+    transition: all 0.4s ease;
+}
+
+/* Card hover */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    background: pink;
+    border-color: purple;
+    box-shadow: 0 12px 25px lightgray;
+}
+
+/* Card headings */
+.card h3 {
+    color: maroon;
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Card descriptions */
+.card p {
+    color: black;
+    font-size: 14px;
+}
+
+/* Certificate cards */
+#certificates .card {
+    border-top: 5px solid purple;
+}
+
+/* Project cards */
+#projects .card {
+    border-top: 5px solid maroon;
+}
+
+/* Interests cards */
+#interests .card {
+    width: 190px;
+    min-height: 90px;
+    padding: 20px 12px;
+    background: white;
+    color: navy;
+    font-weight: bold;
+    border: 2px solid lavender;
+}
+
+/* Interests hover */
+#interests .card:hover {
+    background: lavender;
+    border-color: pink;
+    color: maroon;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, navy, purple, maroon);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 55px;
+    border-top: 6px solid pink;
+    box-shadow: 0 -5px 20px lightgray;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Text selection */
+::selection {
+    background: pink;
+    color: maroon;
+}
+```
