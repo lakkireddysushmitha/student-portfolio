@@ -1,23 +1,26 @@
-# Student Portfolio
+# My Student Portfolio 🌸
 
-My first academic portfolio website built using HTML5 and CSS3.
+My first academic portfolio website created using HTML5 and CSS3.
 
-## Live Demo
+## 🌐 Live Website
 
-Explore my portfolio website here:
+👉 **[Click here to view my portfolio](https://lakkireddysushmitha.github.io/student-portfolio/)**
 
-**[Click here to view my Portfolio](https://lakkireddysushmitha.github.io/student-portfolio/)**
+## ✨ Features
 
-## Features
-
-- About Me section
-- Education details
+- About Me
+- Education
 - Certificates
-- Academic projects
+- Academic Projects
 - Interests
-- CSS styling, colors, shadows, and hover effects
+- Creative CSS styling and hover effects
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+
+## 📂 Project Files
+
+- `index.html` — Website structure and content
+- `style.css` — Website styling and design
